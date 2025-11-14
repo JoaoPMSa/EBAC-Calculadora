@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+# calculadora.sh - Executa uma calculadora em Python via here-doc
+
+python3 - << 'PYCODE'
+# Calculadora em Python
+# Recebe dois números do usuário
+num1 = float(input("Digite o primeiro número: "))
+num2 = float(input("Digite o segundo número: "))
+
+# Mostra opções de operação
+print("Escolha a operação:")
+print("1 - Adição (+)")
+print("2 - Subtração (-)")
+print("3 - Multiplicação (*)")
+print("4 - Divisão (/)")
+
+operacao = input("Digite o número da operação desejada: ")
+
+# Executa a operação escolhida
+if operacao == "1":
+    print("Resultado:", num1 + num2)
+elif operacao == "2":
+    print("Resultado:", num1 - num2)
+elif operacao == "3":
+    print("Resultado:", num1 * num2)
+elif operacao == "4":
+    if num2 != 0:
+        print("Resultado:", num1 / num2)
+    else:
+        print("Erro: divisão por zero não é permitida.")
+else:
+    print("Opção inválida.")
+PYCODE
