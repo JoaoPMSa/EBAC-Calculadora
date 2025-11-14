@@ -23,11 +23,11 @@ O usuário digita dois números, que são convertidos para float para permitir c
 
 ## - Menu de operações
 
-  print("Escolha a operação:")
-  print("1 - Adição (+)")
-  print("2 - Subtração (-)")
-  print("3 - Multiplicação (*)")
-  print("4 - Divisão (/)")
+   print("Escolha a operação:")
+   print("1 - Adição (+)")
+   print("2 - Subtração (-)")
+   print("3 - Multiplicação (*)")
+   print("4 - Divisão (/)")
 
 ## - Exibe as opções disponíveis.
 ## - Escolha da operação:
