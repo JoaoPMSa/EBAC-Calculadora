@@ -19,20 +19,26 @@ Este projeto é uma calculadora simples desenvolvida em **Python** que permite a
   ```python
   num1 = float(input("Digite o primeiro número: "))
   num2 = float(input("Digite o segundo número: "))
+  ```
+  
 O usuário digita dois números, que são convertidos para float para permitir cálculos com decimais.
 
 ## - Menu de operações
 
+```python
 print("Escolha a operação:")
 print("1 - Adição (+)")
 print("2 - Subtração (-)")
 print("3 - Multiplicação (*)")
 print("4 - Divisão (/)")
+```
 
-## - Exibe as opções disponíveis.
-## - Escolha da operação:
+- Exibe as opções disponíveis.
+- Escolha da operação:
 
+   ```python
   operacao = input("Digite o número da operação desejada: ")
+   ```
 
 ## - O usuário informa qual operação deseja realizar.
 ## - Execução da operação:
