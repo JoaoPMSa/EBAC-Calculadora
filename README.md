@@ -43,11 +43,11 @@ print("4 - Divisão (/)")
 - O usuário informa qual operação deseja realizar.
   
 - Execução da operação:
-     O programa usa estruturas condicionais (if, elif, else) para verificar a escolha e calcular:
-     Adição: num1 + num2
-     Subtração: num1 - num2
-     Multiplicação: num1 * num2
-     Divisão: num1 / num2 (com verificação para evitar divisão por zero)
+    - O programa usa estruturas condicionais (if, elif, else) para verificar a escolha e calcular:
+    - Adição: num1 + num2
+    - Subtração: num1 - num2
+    - Multiplicação: num1 * num2
+    - Divisão: num1 / num2 (com verificação para evitar divisão por zero)
   
 - Tratamento de erros:  
      Caso o usuário escolha uma opção inválida ou tente dividir por zero,  
