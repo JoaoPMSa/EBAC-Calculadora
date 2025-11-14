@@ -52,19 +52,19 @@ print("4 - Divisão (/)")
   Caso o usuário escolha uma opção inválida ou tente dividir por zero,  
   o programa exibe uma mensagem de erro apropriada. 🚀  
 
-### Exemplo de uso
+- Exemplo de uso
 
-Digite o primeiro número: 10  
-Digite o segundo número: 5  
-
-Escolha a operação:  
-1 - Adição (+)  
-2 - Subtração (-)  
-3 - Multiplicação (*)  
-4 - Divisão (/)  
-
-Digite o número da operação desejada: 4  
-Resultado: 2.0
+   Digite o primeiro número: 10  
+   Digite o segundo número: 5  
+   
+   Escolha a operação:  
+   1 - Adição (+)  
+   2 - Subtração (-)  
+   3 - Multiplicação (*)  
+   4 - Divisão (/)  
+   
+   Digite o número da operação desejada: 4  
+   Resultado: 2.0
 
 ## 🎯 Objetivo
   Este projeto tem como objetivo demonstrar conceitos básicos de:- Entrada e saída de dados em Python
