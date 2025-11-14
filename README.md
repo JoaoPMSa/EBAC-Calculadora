@@ -74,3 +74,11 @@ print("4 - Divisão (/)")
   - Tratamento de erros (divisão por zero e opção inválida)
 - Operações matemáticas simples
 - Tratamento de erros (divisão por zero e opção inválida)
+
+
+## 🚀 Como executar o SHell Script
+
+1. Abra o terminal no diretório onde está o arquivo `calculadora.sh`.  
+2. Digite o comando abaixo para rodar o script:
+   ```bash
+   ./calculadora.sh
